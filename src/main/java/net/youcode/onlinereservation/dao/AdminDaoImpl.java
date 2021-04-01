@@ -99,6 +99,7 @@ public class AdminDaoImpl implements AdminDao{
 	public int acceptReservation(Integer id) {
 
 		String updateQuery = "UPDATE Reservation SET isAccepted = 1 WHERE id = :id";
+
 		session = sessionFactory.openSession();
 		session.beginTransaction();
 

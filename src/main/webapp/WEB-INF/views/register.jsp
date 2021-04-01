@@ -11,7 +11,7 @@
   <link href="https://fonts.googleapis.com/css?family=Karla:400,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.materialdesignicons.com/4.8.95/css/materialdesignicons.min.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-  <link rel="stylesheet" href="/OnlineReserve/url/assets/css/login.css">
+  <link rel="stylesheet" href='<c:url value="/resources/assets/css/login.css" />'/>
 </head>
 <body>
   <main class="d-flex align-items-center min-vh-100 py-3 py-md-0">
@@ -19,7 +19,7 @@
       <div class="card login-card">
         <div class="row no-gutters">
           <div class="col-md-5">
-            <img src="/OnlineReserve/url/assets/images/login.jpg" alt="login" class="login-card-img">
+            <img src="<c:url value="/resources/assets/images/login.jpg" />" alt="login" class="login-card-img">
           </div>
           <div class="col-md-7">
             <div class="card-body">

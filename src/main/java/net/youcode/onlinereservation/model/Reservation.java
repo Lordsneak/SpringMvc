@@ -34,10 +34,7 @@ public class Reservation {
 	@ManyToOne
 	private User user;
 	
-
-
-
-
+	
 	public Reservation() {
 		super();
 		// TODO Auto-generated constructor stub
